@@ -2,12 +2,12 @@
 
 const NavBar = () => {
     const navOptions = <>
-        <li><a>Item 1</a></li>
+        <li><a>Home</a></li>
         <li>
-            <a>Parent</a>
-            
+            <a>Contact Us</a>
         </li>
-        <li><a>Item 3</a></li>
+        <li><a>Our Menu</a></li>
+        <li><a>Our Shop</a></li>
     </>
     return (
         <>

@@ -5,7 +5,7 @@ import MenuItem from "../../Shared/MenuItem/MenuItem";
 
 const PopularMenu = () => {
     const [menu, setMenu] = useState([]);
-    
+
     useEffect(() => {
         fetch('menu.json')
             .then(res => res.json())
@@ -28,6 +28,7 @@ const PopularMenu = () => {
                     ></MenuItem>)
                 }
             </div>
+            <button className="btn btn-outline border-0 border-b-4 mt-4 ">View full Menu</button>
         </section>
     );
 };
